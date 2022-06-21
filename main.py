@@ -1,3 +1,5 @@
+# Copyright (c) 2022, w_squidman. All rights reserved.
+
 import random
 import hashlib
 import time
