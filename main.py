@@ -15,18 +15,13 @@ class bcolors: # text print colors
     BOLD = "\033[1m"
     UNDERLINE = "\033[4m"
 
-print(bcolors.OKGREEN + """
-               _     __,..---""-._                 ';-,
-        ,    _/_),-"`             '-.                `\\
-       \|.-"`    -_)                 '.                ||
-       /`   O   ,                      \              .'/
-       '.___,__/                 .-'    \_        _.-'.'
-          |\  \      \         /`        _`""""""`_.-'
-             _/;--._, >        |   --.__/ `""""""`
-           (((-'  __//`'-......-;\      )
-                (((-'       __//  '--. /
-                          (((-'    __//
-                                 (((-'
+print(bcolors.OKGREEN + """ 
+       ()_
+       ( _)
+       / \__
+     O/ _/`"`
+      \  )_
+       `""`"
 """)
 
 print(bcolors.WARNING + "WARNING: Warren is not responsible for malicious use of this program. With great power comes great responsibilty. (as an old man in a spiderman movie once said)")
