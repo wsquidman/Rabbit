@@ -4,28 +4,6 @@ import random
 import hashlib
 import time
 
-class bcolors: # text print colors
-    HEADER = "\033[95m"
-    OKBLUE = "\033[94m"
-    OKCYAN = "\033[96m"
-    OKGREEN = "\033[92m"
-    WARNING = "\033[93m"
-    FAIL = "\033[91m"
-    ENDC = "\033[0m"
-    BOLD = "\033[1m"
-    UNDERLINE = "\033[4m"
-
-print(bcolors.OKGREEN + """ 
-       ()_
-       ( _)
-       / \__
-     O/ _/`"`
-      \  )_
-       `""`"
-""")
-
-print(bcolors.WARNING + "WARNING: Warren is not responsible for malicious use of this program. With great power comes great responsibilty. (as an old man in a spiderman movie once said)")
-
 # actual program LMAO
 characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()-+=/?\;:'|`~}{][_><"
 characterList = list(characters)
